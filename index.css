@@ -1,5 +1,17 @@
 body{
-    background-image: url("./flower.jpeg");
+    background-image: url("./img.jpg");
     background-size: cover;
     
+}
+.Form{
+    padding: 50px;
+     font-size: medium; 
+   
+}
+input{
+    width: 100%;
+    padding: 15px;
+    border: 20px;
+    cursor: pointer;
+    font-size: larger;
 }
