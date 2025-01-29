@@ -1,0 +1,20 @@
+{
+  "name": "login-page",
+  "version": "1.0.0",
+  "description": "Creating a login page with all the functions with database \r # Tools\r 1.React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PDP-DK/Login-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PDP-DK/Login-page/issues"
+  },
+  "homepage": "https://github.com/PDP-DK/Login-page#readme"
+}
