@@ -1,17 +1,69 @@
 body{
-    background-image: url("./img.jpg");
+    background-image: url("sky.jpg");
     background-size: cover;
-    
+   display: inline;
+ 
 }
 .Form{
     padding: 50px;
-     font-size: medium; 
+     font-size: x-large; 
+     text-align: flex;
+     color: white;
+     background: transparent;
+   text-align: center;
+
+}
+h1{
+   text-shadow: 3px 3px 3px hsl(240, 2%, 56%);
+   font-size: xxx-large;
    
 }
+
 input{
-    width: 100%;
-    padding: 15px;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
     border: 20px;
     cursor: pointer;
     font-size: larger;
+    border-style: solid;
+  background: transparent;
+    border-width: 2px;
+   box-shadow: 3px 3px 5px rgb(74, 72, 74);
+   
+   border-radius: 40px;
+}
+input::placeholder{
+    color: rgb(162, 160, 160);
+    font-size: large;
+}
+
+.p{
+    font-size: xx-large;
+    border-radius: 30px;
+  background-color:rgb(171, 167, 167);
+    color: rgb(9, 9, 9);
+    padding: 10px;
+    margin: 15px;
+    width: 20%;
+}
+bx bxs-user{
+    position: absolute;
+    right: 20px;
+}
+.box i{
+   
+   border: 20px;
+  
+   
+}
+button{
+    background: transparent;
+    color: white;
+    text-align: center;
+box-shadow:  2px 2px 5px hsl(240, 3%, 54%);
+text-shadow: 3px 3px 5px hsl(235, 17%, 15%);
+border-radius: 25px;
+width: 40%;
+
 }

@@ -5,36 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
   
   </body>
-  <body style="background-color: darkgrey; ">
+  <body>
    <center>
-    <h1>Organisation</h1>
-    <form class="Form" >
-      <table  >
-        <tr>
-          <td style="font-size: larger;"><b>Name:</b></td> <td><input type="text" placeholder="Enter your name"></td>
-        </tr>
-        <tr>
-          <td style="font-size: larger;"><b>Age:</b></td><td><input type="number" placeholder="Enter your age"></td>
-        </tr>
-        <tr>
-          <td style="font-size: larger;"><b>Email:</b></td><td><input type="email" placeholder="Enter your email"></td>
-        </tr>
-        <tr>
-          <td style="font-size: larger;"><b>Contact:</b></td><td><input type="number" placeholder="Enter your contact no"></td>
-        </tr>
-        
-        <tr>
-          <td style="font-size: larger;"><b>Institute Name:</b></td><td><input type="text" placeholder="Enter your Institute Name"></td>
-        </tr>
-        <tr>
-          <td></td><td><input type="submit"></td>
-        </tr>
-        <h3>Add student info</h3>
-      </table>
-    </form>
+    <h1 style="color: white;">Organisation</h1>
+    <div class="Form">
+      <label><b>Username:</b>
+      <input type="text" placeholder="Username" required>
+      <i class='bx bxs-user'></i>
+    </label>
+      <br>
+      <label><b>Password:</b></label>
+      <input type="password" placeholder="Password" required>
+      <i class='bx bxs-key'></i>
+<br>
+      <label><b>Institute:</b></label>
+      <input type="text" placeholder="Institute name" required>
+<br>
+
+<label><b>Contact:</b></label>
+<input type="number" placeholder="Contact" required>
+<Br>
+  <button class="p">Submit</button>
+ 
+    </div>
+    
   </center>
   </body>
 </html>
