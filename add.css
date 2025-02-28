@@ -30,7 +30,7 @@ input{
   background: transparent;
     border-width: 2px;
    box-shadow: 3px 3px 5px rgb(74, 72, 74);
-  
+ 
    border-radius: 40px;
 }
 input::placeholder{
@@ -80,4 +80,7 @@ bx bxs-user{
     text-align: center;
     
     
+}
+#in{
+  color: #fff;
 }
